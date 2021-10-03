@@ -1,4 +1,133 @@
+/*
+.nav a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .nav a:hover {
+    background-color: #eeeeee;
+    color: #000000;
+  }
+  
+  .nav a.active {
+    background-color: #0e002b;
+    color: #ffffff;
+  }
+  
+  .nav .login-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background-color: #1c87c9;
+    color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .nav .login-container button:hover {
+    background-color: #0e002b;
+  }
+
+
+
+
 button {
     color: green;
     background-color: honeydew;
 }
+#firstSection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    border-bottom: 0.5rem solid;
+}
+*/
+html {
+box-sizing: border-box;
+font-size: 100%;
+}
+*, *::before, ::after{
+    box-sizing: inherit;
+}
+body {
+    background-color: #ffffff;
+    color: #101010;
+}
+section, aside, div {
+padding: 20px;
+border-radius: 12px;
+}
+
+.flex-container {
+    display: flex;
+}
+.main-content {
+flex: 1;
+flex-grow: 1;
+flex-shrink: 1;
+}
+.emptyspace {
+flex: 1.5;
+flex-flow: 1.5;
+flex-shrink: 1.5;
+}
+ul, nav{
+list-style: none;
+justify-content: space-evenly;
+}
+nav li {
+    display: inline;
+    justify-items: center;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+header {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav{
+    display: flex;
+}
+.flex-container {
+    height: 100%;
+    width: 100%;
+    
+    background-color: lavender;
+
+}
+button {
+    text-emphasis-color: white;
+    background-color: green;
+    border-style: groove;
+    color: white;
+}
+#main-content-text {
+    height: 100;
+    width: 100;
+    font-size: 12px;
+}
+#eat-together-area {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        z-index: 10;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
