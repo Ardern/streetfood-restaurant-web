@@ -118,3 +118,36 @@
     font-size: 1.3rem;
     padding: 20px 0px;
 }
+
+/* menu  */
+.menu {
+    padding: 60px;
+}
+
+.menu-item {
+    background-color: turquoise;
+    padding: 40px;
+}
+
+.menu-item-row {
+display: flex;
+justify-content: space-between;
+margin-bottom: 40px;
+}
+
+.item-one {
+    width: 400px;
+    height: auto;
+    background-color: white;
+    border-bottom-right-radius: 40px;
+}
+.burg-descr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.burg-descr img {
+    margin-left: -50px;
+    width: 150px;
+    height: auto;
+}
