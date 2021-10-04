@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .nav-banner {
     background-color: darkgray;
     padding: 60px;
@@ -30,4 +36,85 @@
     width: 40px;
     height: 40px;
 
+}
+
+.nav-content {
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* end navbar  */
+.circle {
+    position: relative;
+    padding: 40px;
+    width: 500px;
+    height: 500px;
+    border: 4px dotted #fff;
+    border-radius: 50%;
+}
+
+.nav-descr {
+    width: 600px;
+}
+.nav-descr h1 {
+    font-size: 3rem;
+    padding: 20px 0px;
+
+}
+
+#food {
+    color: tomato;
+    
+}
+
+.nav-descr p {
+    font-size: 1.5rem;
+    padding: 10px 0px;
+}
+
+#btn-order {
+    background-color: yellowgreen;
+    padding: 10px 30px;
+    color: white;
+    margin: 20px 0px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+}
+
+#img-1 {
+    transform: translateY(3px);
+}
+
+#img-2 {
+    transform: translate(60px, -80px);
+}
+#img-3 {
+    transform: translate(150px, 40px);
+}
+
+
+
+/* eating together  */
+.eat-tog {
+    padding: 60px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.eat-tog  img {
+    width: 600px;
+    height: auto;
+}
+
+.tog {
+    width: 100vw;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.tog  p {
+    font-size: 1.3rem;
+    padding: 20px 0px;
 }
