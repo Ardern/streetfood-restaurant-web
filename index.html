@@ -1,73 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StreetFood Restaurant</title>
-    <link rel="stylesheet" href="index.css" type="text/css">
-
-</head>
-<body>
-    <!---Code 
-    
-    
-    <div class="nav">
-        <a class="active" href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#menu">Our Menu</a>
-        <a href="#menu">Our Menu</a>
-        <img>
-        <a href="#menu">Catering</a>
-        <a href="#menu">REservations</a>
-        <a href="#menu">Gallery</a>
-        <a href="#menu">Contacts</a>
-      </div>
-    <div>
-      
-<h1 id="firstSection">Street Food</h1>
-<h2>We Don't Play With Food</h2>
-<p>
-    When I was a small boy, my father told me never to recommend a church or a woman to anyone. And I have found it wise never to recommend a restaurant either. Something always goes wrong with the cheese souffle.
-</p>
-<button>Order Now</button>
-    </div>
-    
-    <div>
-    <h1>Eat Together</h1>
-    <p>
-        There is something profoundly satisfying about sharing a meal. Eating together, breaking bread together, is one of the oldest and most fundamentally unifying of human experiences.
-    </p>
-    </div>
-   <!--This is the third section "EXPLORE MENU"
-   <div>
-<h1>Explore Menu</h1>
-   </div>
-   <!---This is the fourth section "HOT DEALS"
-   <div>
-       <h1>SPECIAL COMBO PACK</h1>
-       <h2>Burger Pizz</h2>
-       <h2>Fries & Drinks</h2>
-       <p>
-        There is something profoundly satisfying about sharing a meal. Eating together, breaking bread together, is one of the oldest and most fundamentally unifying of human experiences.
-       </p>
-
-   </div>
-   <!---This is the fifth section "CONTACT US"
-   <div>
-<h1>Contact Us</h1>
-<p>
-    There is something profoundly satisfying about sharing a meal. Eating together, breaking bread together, is one of the oldest and most fundamentally unifying of human experiences.
-</p>
- <button>send</button>
-   </div>
-   <!---This is the sexth section "FOOTER"
-   <div>
-
-   </div>
-   for Nav Bar-->
-   
-   <!DOCTYPE html>
+ <!DOCTYPE html>
    <html lang="en">
    <head>
        <meta charset="UTF-8">
@@ -76,18 +7,32 @@
        <title>Document</title>
        <link rel="stylesheet" href="index.css" type="text/css">
    </head>
-    <nav>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Our Menu</a></li>
-        <li><a href="#">Happy Hour</a></li>
-        <li><a href="#">Catering</a></li>
-        <li><a href="#">Reservation</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Contact</a></li>
-    </nav>
+    <div class="nav-banner">
+      <section class="nav">
+          <div class="nav-one">
+            <ul> 
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Our Menu</a></li>
+              <li><a href="#">Happy Hour</a></li>
+            </ul>
+          </div>
+          <div class="logo">
+            <img src="./assets/logo.png" alt="">
+            <p>Street Food</p>
+          </div>
+          <div class="nav-one">
+            <ul> 
+              <li><a href="#">catering</a></li>
+              <li><a href="#">reservation</a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </section>
+    </div>
        
-    <main class="flex-container">
+    <div class="main">
         <section class="main-content">
         <h1>Street Food</h1>
         <h2>We Don't Play With Food</h2>
@@ -102,17 +47,8 @@
             <p>this space should be empty</p>
             <img src="http://www.tanisaresort.com/wp-content/themes/hotel-resort-pro/images/slide-mini-salad.png" alt="Plate of food">
         </aside>    
-    </main>
-    <!--
-    <secondary class="eat-together-area">
-            <div class="eat-together-image" img="/home/moringa/Documents/moringa_pre-prep_projects/StreetFood_Restaurant_Website/assets/eating_together.png"></div>
-            <div class="eat-together-text"> 
-                <h2>Eat Together</h2>
-                <p>There is something profoundly satisfying about sharing a meal. Eating together, breaking bread together, is one of the oldest and most fundamentally unifying of human experiences.</p>
-            </div>
-    </secondary>
--->
-<secondary class="eat-together-area">
+      </div>
+<div class="secondary">
     <aside class="">
         <h2>Empty Space</h2>
         <p>this space should be empty</p>
@@ -126,29 +62,8 @@
         
         <button>Order Now</button>
         </section>  
-</secondary>
-<!--Explore 
-<div class=”gallery”>
-    <figure class=”gallery__item gallery__item--1">
-      <img src="assets/likemeat.png" class="burger_name" alt="Lite Burger">
-    </figure>
-    <figure class="gallery__item gallery__item--2">
-      <img src="assets/likemeat.png" class="burger_name" alt="Lite II Burger">
-    </figure>
-    <figure class="gallery__item gallery__item--3">
-      <img src="assets/likemeat.png" class="burger_name" alt="Medium Burger">
-    </figure>
-    <figure class="gallery__item gallery__item--4">
-      <img src="assets/likemeat.png" class="burger_name" alt="Medium II Burger">
-    </figure>
-    <figure class="gallery__item gallery__item--5">
-      <img src="assets/likemeat.png" class="burger_name" alt="Heavy Burger">
-    </figure>
-    <figure class="gallery__item gallery__item--6">
-      <img src="assets/likemeat.png" class="burger_name" alt="Heavy II Burger">
-    </figure>
-  </div> 
-  ---->
+</div>
+
   <div class="grid-container">
     <div class="item1"><img src="assets/likemeat.png" alt="Lite Burger">Lite Burger</div>
     <div class="item2"><img src="assets/likemeat.png" alt="Lite Burger">Lite Burger</div>
@@ -158,16 +73,11 @@
     <div class="item6"><img src="assets/likemeat.png" alt="Lite Burger">Lite Burger</div>
     
     
-    <!--<div class="item2">2</div>
-    <div class="item3">3</div>  
-    <div class="item4">4</div>
-    <div class="item5">5</div>
-    <div class="item6">6</div>
-    -->
+    
   </div>
   <!--HOT DEALS SECTI0N-->
   <div> 
-  <tertiary class="flex-container">
+  <div class="tertiary">
     <section class="hot-deals">
     <h1>Hot Deals</h1>
     <h2>SPECIAL COMBO PACK</h2>
@@ -181,8 +91,10 @@
     <glass_juice class="hot-deals-juice">
         <img src="assets/abhishek.png" alt="Glass of Juice">
     </glass_juice>    
-  </tertiary>
+  </div>
 </div>
+
+
    <div class="contact-us">
 <h1>Contact Us</h1>
 <p>
@@ -193,5 +105,19 @@
   send
 </button>
    </div>
+
+   <div class="footer">
+    <div>
+      <p>Sunday to Thursday</p>
+    </div>
+    <div>
+      <p>Phone Number</p>
+    </div>
+    <div>
+      <p>FOLLOW</p>
+    </div>
+</div>
+
+
 </body>
 </html>
