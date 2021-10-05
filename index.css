@@ -98,14 +98,15 @@
 
 /* eating together  */
 .eat-tog {
-    padding: 60px;
+    padding: 20px;
     display: flex;
     justify-content:space-between;
 }
 
 .eat-tog  img {
-    width: 600px;
+    width: 800px;
     height: auto;
+    padding: 60px;
 }
 
 .tog {
@@ -113,10 +114,15 @@
     text-align: center;
     padding-top: 60px;
 }
+.tog h2 {
+    color: orange;
+    size: 20px;
+}
 
 .tog  p {
     font-size: 1.3rem;
     padding: 20px 0px;
+    margin-right: 60px;
 }
 
 /* menu  */
@@ -125,7 +131,7 @@
 }
 
 .menu-item {
-    background-color: turquoise;
+    background-color: #e6eeff;
     padding: 40px;
 }
 
@@ -141,6 +147,11 @@ margin-bottom: 40px;
     background-color: white;
     border-bottom-right-radius: 40px;
 }
+.item-one h4 {
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: 80px;
+}
 .burg-descr {
     display: flex;
     justify-content: space-between;
@@ -150,4 +161,73 @@ margin-bottom: 40px;
     margin-left: -50px;
     width: 150px;
     height: auto;
+}
+.burg-descr p {
+    font-size: 1.15rem;
+    text-align: center;
+}
+
+/* end menu*/
+.hot-deals {
+    background-color: #1aff66;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.deal-images {
+    padding: 50px;
+}
+.deal-description h1 {
+    color: green;
+}
+.deal-description h2 {
+    padding: 20px;
+    font-weight: 500;
+}
+.deal-description p {
+    padding: 20px;
+}
+/*--end hot deals*/
+.contact-us {
+    height: 200px;
+    max-width: none;
+    background-color: goldenrod;
+    padding: 20px;
+    justify-content: center;   
+}
+.contact-us h1 {
+   
+}
+.email-cell {
+    padding: 10px 30px;
+    margin: 20px 0px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+}
+
+.contact-us-label h1 {
+   font-size: medium; 
+
+}
+.send-btn {
+    background-color: yellowgreen;
+    padding: 5px 15px;
+    margin: 20px 0px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    max-width: 100px;
+    
+}
+/*--end contact-us*/
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    height: 200px;
+    max-width: none;
+    background-color: honeydew;
+    color: black;
 }
