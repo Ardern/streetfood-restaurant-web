@@ -128,6 +128,7 @@
 /* menu  */
 .menu {
     padding: 60px;
+    background-color: ivory;
 }
 
 .menu-item {
@@ -170,9 +171,11 @@ margin-bottom: 40px;
 /* end menu*/
 .hot-deals {
     background-color: #1aff66;
-    padding: 60px;
+    padding: 50px;
     display: flex;
     justify-content: space-between;
+    height: 500px;
+    max-width: none;
 }
 .deal-images {
     padding: 50px;
@@ -196,7 +199,7 @@ margin-bottom: 40px;
     justify-content: center;   
 }
 .contact-us h1 {
-   
+   text-align: center;
 }
 .email-cell {
     padding: 10px 30px;
