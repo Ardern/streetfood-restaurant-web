@@ -1,11 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Poppins";
+}
+:root {
+    --explore-bg: #EAF3E4;
+    --hotDeals-bg:#C9ECB5;
+    --contact-bg:#FFF5DD;
+    --btn-color:#6CB840;
+    --banner-bg:#E5E5E5;
+}
+
 .nav-banner {
-    background-color: darkgray;
+    background-color: var(--banner-bg);
     padding: 60px;
 }
 
@@ -25,7 +39,7 @@
     text-align: center;
     list-style: none;
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .logo {
@@ -110,9 +124,10 @@
 }
 
 .tog {
-    width: 100vw;
+    /* width: 100vw; */
     text-align: center;
     padding-top: 60px;
+
 }
 .tog h2 {
     color: orange;
@@ -127,12 +142,11 @@
 
 /* menu  */
 .menu {
-    padding: 60px;
-    background-color: ivory;
+    padding: 0px 60px;
 }
 
 .menu-item {
-    background-color: #e6eeff;
+    background-color: var(--explore-bg);
     padding: 40px;
 }
 
@@ -169,39 +183,62 @@ margin-bottom: 40px;
 }
 
 /* end menu*/
+.hot-deals-menu {
+    padding: 0px 60px;
+}
+
 .hot-deals {
-    background-color: #1aff66;
+    background-color: var(--hotDeals-bg);
     padding: 50px;
     display: flex;
     justify-content: space-between;
-    height: 500px;
+    height: auto;
     max-width: none;
 }
+
 .deal-images {
+    margin-top: -170px;
     padding: 50px;
+    display: inline-flex;
+}
+/* reduce image size  */
+.deal-images  img:nth-child(2) {
+    width: 300px;
+    height: 250px;
+    transform: translate(-300px, 370px);
 }
 .deal-description h1 {
-    color: green;
+    color: #6CB840; 
+    font-size: 37px;
 }
 .deal-description h2 {
-    padding: 20px;
+    padding: 5px;
     font-weight: 500;
+    font-size: 30px;
 }
 .deal-description p {
     padding: 20px;
+    text-align: center;
+    font-size: 21px;
 }
+
+
 /*--end hot deals*/
 .contact-us {
-    height: 200px;
-    max-width: none;
-    background-color: goldenrod;
-    padding: 20px;
-    justify-content: center;   
+    height: auto;
+    background-color: var(--contact-bg);
+    padding: 0px 120px; 
+    text-align: center;
+    align-items:center;  
+}
+.contact-us-content {
+    justify-content: center;
+    padding: 0px 120px; 
 }
 .contact-us h1 {
    text-align: center;
 }
-.email-cell {
+.email-cell input {
     padding: 10px 30px;
     margin: 20px 0px;
     border: none;
@@ -213,14 +250,13 @@ margin-bottom: 40px;
    font-size: medium; 
 
 }
-.send-btn {
-    background-color: yellowgreen;
-    padding: 5px 15px;
-    margin: 20px 0px;
+#send-btn {
+    background-color: var(--btn-color);
+    padding: 10px 30px;
     border: none;
     outline: none;
     border-radius: 40px;
-    max-width: 100px;
+   
     
 }
 /*--end contact-us*/
