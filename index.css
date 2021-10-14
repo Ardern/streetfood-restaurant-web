@@ -78,6 +78,7 @@ body {
     height: 500px;
     border: 4px dotted #fff;
     border-radius: 50%;
+    z-index: 1;
 }
 
 .nav-descr {
