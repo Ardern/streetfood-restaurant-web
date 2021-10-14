@@ -168,6 +168,9 @@ display: flex;
 justify-content: space-between;
 margin-bottom: 40px;
 }
+#menu {
+    color: tomato; 
+}
 
 .item-one {
     width: 400px;
